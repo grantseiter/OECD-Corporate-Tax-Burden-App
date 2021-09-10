@@ -1,8 +1,8 @@
-# MNC-Profit-Shifting-App
+# OECD-Corporate-Tax-Burden-App
 
 *Dashboard Visualizing Biden’s Reforms to the Tax Treatment of US Multinational Corporations (MNCs)*
 
-Project GitHub Repo: <https://github.com/grantseiter/MNC-Profit-Shifting-App>
+Project GitHub Repo: <https://github.com/grantseiter/OECD-Corporate-Tax-Burden-App>
 
 Deployed Application: N/A
 
