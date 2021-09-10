@@ -1,0 +1,7 @@
+name: mnc-app-dev
+dependencies:
+  - pandas >= 1.3.2
+  - plotly >= 5.1.0
+  - pip
+  - pip:
+    - dash >= 2.0.0
