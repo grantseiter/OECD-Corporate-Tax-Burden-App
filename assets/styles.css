@@ -148,6 +148,15 @@ p {
   box-shadow: 3px 3px 3px #BABBC0;
 }
 
+.effect2_container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 15px;
+  position: relative;
+  box-shadow: 3px 3px 3px #ffffff;
+}
+
 .input_container {
   border-radius: 5px;
   background-color: #BABBC0;
@@ -194,7 +203,21 @@ p {
   border-left: 1px solid ;
   border-right: 1px solid ;
   border-bottom: 1px solid ;
-  background-color: #ffffff;
+  background-color: #ffffff !important;
+  padding: 12px ;
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+}
+.custom_tab2_selected {
+  color: #161818;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-top: 3px solid #008CCC !important;
+  border-left: 1px solid ;
+  border-right: 1px solid ;
+  border-bottom: 1px solid ;
+  background-color: #F2F2F2 !important;
   padding: 12px ;
   display: flex ;
   align-items: center;
