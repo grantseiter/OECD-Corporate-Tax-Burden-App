@@ -534,17 +534,17 @@ app.layout = html.Div(
                 ),
                 dcc.Markdown(
                     """            
-                 **The Statutory Corporate Income Tax Rate** is the rate at which each dollar of corporate taxable income is taxed. Statutory corporate tax rates in the OECD include both central (federal) corporate rates and sub-central (state and local) tax rates. The statutory corporate tax rate does not fully capture the tax burden a corporation faces or the tax burden on new investment. However, it does impact the incentive to locate profits in a given jurisdiction.
+                 **The Statutory Corporate Income Tax Rate** is the rate at which each dollar of corporate taxable income is taxed. Statutory corporate tax rates in the OECD include both central (federal) corporate rates and sub-central (state and local) tax rates. The statutory corporate tax rate impacts the incentive to locate profits in a given jurisdiction.
 
-                **The Marginal Effective Tax Rate (METR)** measures the tax burden on marginal investment for an investment that breaks even in present value. The METR represents the share of the pre-tax returns needed to cover taxes on a marginal investment. The METR incorporates the statutory tax rate, deductions and credits that corporations receive for new investments, special lower tax rates for certain types of income, and deductions for financing costs (interest payments or equity payments). The METR measures the impact a corporate tax has on the level of investment in a country.
+                **The Marginal Effective Tax Rate (METR)** measures the tax burden on marginal investment for an investment that breaks even in present value. The METR incorporates the statutory tax rate, deductions and credits that corporations receive for new investments, special lower tax rates for certain types of income, and deductions for financing costs (interest payments or equity payments). The METR measures the impact a corporate tax has on the level of investment in a country.
                  
-                **The Average Effective Tax Rate (AETR)** measures the tax burden on new investments that earn above-normal returns or economic rents. Like the METR, the AETR considers both the statutory corporate tax rate, deductions, credits, and other special provisions that a tax system may provide. The difference, however, is that the AETR is measured assuming an asset earns more than enough to break even in present value. This rate can affect the choice between two or more mutually exclusive investments, or in the case of multinational corporations, the decision to locate investment in different jurisdictions. 
+                **The Average Effective Tax Rate (AETR)** measures the tax burden on new investments that earn above-normal returns or economic rents. Like the METR, the AETR considers both the statutory corporate tax rate, deductions, credits, and other special provisions that a tax system may provide. This rate can affect the decision to locate investment in different jurisdictions. 
                 """,
                     className="results_container three columns",
                     style={
                         "text-align": "justify",
                         "margin-bottom": "10px",
-                        "font-size": "80%",
+                        "font-size": "90%",
                     },
                     dangerously_allow_html=True,
                 ),
