@@ -4,4 +4,4 @@ dependencies:
   - plotly >= 5.1.0
   - pip
   - pip:
-    - dash >= 2.0.0
+    - dash
