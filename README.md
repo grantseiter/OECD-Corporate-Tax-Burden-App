@@ -4,11 +4,11 @@
 
 Project GitHub Repo: <https://github.com/grantseiter/OECD-Corporate-Tax-Burden-App>
 
-Deployed Application: N/A
+Deployed Application: <https://compute.studio/AEIEconomics/OECD-Corporate-Tax-Burden-App/>
 
 ### Note
 
-This application accompanies research presented in **The Tax Burden on Corporations: A Comparison of OECD Countries and Proposals to Reform the US Tax System** (Pomerleau, forthcoming).
+This application accompanies research presented in *The Tax Burden on Corporations: A Comparison of OECD Countries and Proposals to Reform the US Tax System* (Pomerleau, forthcoming).
 
 To run locally:
 
