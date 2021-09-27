@@ -483,10 +483,10 @@ app.layout = html.Div(
         ),
         dcc.Markdown(
             """
-            ## The Tax Burden on Multinational Corporations and Proposals to Reform the US Tax System
+            ## The Tax Burden on Corporations and Proposals to Reform the US Tax System
             """
             """
-            *Modeling by <a href="https://www.aei.org/profile/kyle-pomerleau/" children="Kyle Pomerleau" style="color:#4f5866;text-decoration:none" target="blank" />. Dashboard design by <a href="https://https://grantseiter.com/" children="Grant M. Seiter" style="color:#4f5866;text-decoration:none" target="blank" />.*
+            *Modeling by <a href="https://www.aei.org/profile/kyle-pomerleau/" children="Kyle Pomerleau" style="color:#4f5866;text-decoration:none" target="blank" />. Dashboard development by <a href="https://grantseiter.com/" children="Grant M. Seiter" style="color:#4f5866;text-decoration:none" target="blank" />.*
             """,
             style={"max-width": "1000px"},
             dangerously_allow_html=True,
@@ -679,7 +679,7 @@ app.layout = html.Div(
                                 {"label": "OECD Average", "value": "OECD"},
                                 {"label": "Poland", "value": "POL"},
                                 {"label": "Portugal", "value": "PRT"},
-                                {"label": "Slovak Republic", "value": "SVK"},
+                                {"label": "Slovakia", "value": "SVK"},
                                 {"label": "Slovenia", "value": "SVN"},
                                 {"label": "Spain", "value": "ESP"},
                                 {"label": "Sweden", "value": "SWE"},
@@ -735,7 +735,7 @@ app.layout = html.Div(
                                 {"label": "OECD Average", "value": "OECD"},
                                 {"label": "Poland", "value": "POL"},
                                 {"label": "Portugal", "value": "PRT"},
-                                {"label": "Slovak Republic", "value": "SVK"},
+                                {"label": "Slovakia", "value": "SVK"},
                                 {"label": "Slovenia", "value": "SVN"},
                                 {"label": "Spain", "value": "ESP"},
                                 {"label": "Sweden", "value": "SWE"},
@@ -947,11 +947,11 @@ app.layout = html.Div(
             [
                 dcc.Markdown(
                     """
-                **Notes:** This dashboard is an extension of research presented in *The Tax Burden on Corporations: A Comparison of OECD Countries and Proposals to Reform the US Tax System* (Pomerleau, forthcoming). The code that powers this data visualization can be found
+                **Notes:** This dashboard is an extension of research presented in *The Tax Burden on Corporations: A Comparison of OECD Countries and Proposals to Reform the US Tax System* (Pomerleau, 2021). The code that powers this data visualization can be found
                 <a href="https://github.com/grantseiter/OECD-Corporate-Tax-Burden-App" children="here" style="color:#008CCC" target="blank" />.
                 Feedback or questions? Contact us <a href="mailto:Grant.Seiter@AEI.org" children="here" style="color:#008CCC" />.
 
-                Effective tax rates on corporate investment were estimated using a framework developed by Devereux and Griffith (1999) and by generally following the method outlined in Spengel et. Al. (2019). These rates are forward-looking and measure the tax burden that a corporation expects to pay on new domestic investment in each jurisdiction. The parameters used to estimate effective tax rates reflect current law in each country and are set to their long-run values. As such, this analysis ignores several temporary changes made to corporate taxes in response to the COVID-19 pandemic. The full methodology is detailed in *The Tax Burden on Corporations: A Comparison of OECD Countries and Proposals to Reform the US Tax System* (Pomerleau, forthcoming). 
+                Effective tax rates on corporate investment were estimated using a framework developed by Devereux and Griffith (1999) and by generally following the method outlined in Spengel et. Al. (2019). These rates are forward-looking and measure the tax burden that a corporation expects to pay on new domestic investment in each jurisdiction. The parameters used to estimate effective tax rates reflect current law in each country and are set to their long-run values. As such, this analysis ignores several temporary changes made to corporate taxes in response to the COVID-19 pandemic. The full methodology is detailed in *The Tax Burden on Corporations: A Comparison of OECD Countries and Proposals to Reform the US Tax System* (Pomerleau, 2021). 
                     
                 For more details on additional corporate tax reforms put forth by the Biden Administration and lawmakers in congress, see <a href="https://www.aei.org/research-products/report/bidens-reforms-to-the-tax-treatment-of-us-multinational-corporations-the-knowns-and-unknowns/" children="Biden’s Reforms to the Tax Treatment of US Multinational Corporations: The Knowns and Unknowns" style="color:#008CCC;font-style:italic" target="blank" /> (Pomerleau, 2021).
                 """,
@@ -1022,7 +1022,7 @@ def update(bar_figure_tabs):
         """
     if bar_figure_tabs == "aetr_tab":
         text = """
-        The Biden Administration proposal would raise the AETR to 29.5 percent. This would be the highest among all OECD nations and 6.4 percentage points above the OECD average. The House Ways and Means proposal would raise the US AETR to 28 percent. This would also result in the highest AETR among OECD nations.
+        The Biden Administration proposal would raise the AETR to 29.5 percent. This would be the highest among all OECD nations and 6.7 percentage points above the OECD average. The House Ways and Means proposal would raise the US AETR to 28 percent. This would also result in the highest AETR among OECD nations.
         """
     return text
 
@@ -1165,4 +1165,4 @@ def func(n_clicks):
 server = app.server
 # Turn debug=False for production
 if __name__ == "__main__":
-    app.run_server(debug=True, use_reloader=True)
+    app.run_server(debug=False, use_reloader=True)

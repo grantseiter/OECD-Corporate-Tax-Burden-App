@@ -1,6 +1,6 @@
 # OECD-Corporate-Tax-Burden-App
 
-*Dashboard Visualizing Biden’s Reforms to the Tax Treatment of US Multinational Corporations (MNCs)*
+*Dashboard comparing the US tax burden on corporations under current law (and current proposals) to the corporate tax burdens of 36 member nations of the OECD.*
 
 Project GitHub Repo: <https://github.com/grantseiter/OECD-Corporate-Tax-Burden-App>
 
@@ -8,15 +8,15 @@ Deployed Application: N/A
 
 ### Note
 
-This application accompanies:
+This application accompanies research presented in **The Tax Burden on Corporations: A Comparison of OECD Countries and Proposals to Reform the US Tax System** (Pomerleau, forthcoming).
 
 To run locally:
 
 ```
-git clone https://github.com/grantseiter/MNC-Profit-Shifting-App
-cd MNC-Profit-Shifting-App
+git clone https://github.com/grantseiter/OECD-Corporate-Tax-Burden-App
+cd OECD-Corporate-Tax-Burden-App
 conda env create
-conda activate mnc-app-dev
+conda activate oecd-ctb-app-dev
 python app.py
 ```
 
