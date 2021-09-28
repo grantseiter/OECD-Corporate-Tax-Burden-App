@@ -10,10 +10,6 @@ from dash import dash_table
 from dash.dependencies import Input, Output
 import base64
 
-external_stylesheets = [
-    "https://raw.githubusercontent.com/grantseiter/OECD-Corporate-Tax-Burden-App/main/assets/styles.css"
-]
-
 image_filename = "assets/aei_logo.png"
 encoded_image = base64.b64encode(open(image_filename, "rb").read())
 
@@ -473,7 +469,6 @@ def make_alternative_figure(rate, ratetitle, ratelabel, alternative, axisrange):
 # Initialize App
 app = dash.Dash(
     url_base_pathname=os.environ.get("URL_BASE_PATHNAME", "/"),
-    external_stylesheets=external_stylesheets,
 )
 
 # Create App Layout
