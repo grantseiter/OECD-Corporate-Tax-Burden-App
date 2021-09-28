@@ -10,7 +10,9 @@ from dash import dash_table
 from dash.dependencies import Input, Output
 import base64
 
-external_stylesheets = ["https://codepen.io/chriddyp/pen/bWLwgP.css"]
+external_stylesheets = [
+    "https://raw.githubusercontent.com/grantseiter/OECD-Corporate-Tax-Burden-App/main/assets/styles.css"
+]
 
 image_filename = "assets/aei_logo.png"
 encoded_image = base64.b64encode(open(image_filename, "rb").read())
