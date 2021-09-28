@@ -468,6 +468,7 @@ def make_alternative_figure(rate, ratetitle, ratelabel, alternative, axisrange):
 
 # Initialize App
 app = dash.Dash(
+    __name__,
     url_base_pathname=os.environ.get("URL_BASE_PATHNAME", "/"),
 )
 
