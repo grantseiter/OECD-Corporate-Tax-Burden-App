@@ -8,7 +8,7 @@ Deployed Application: <https://compute.studio/AEIEconomics/OECD-Corporate-Tax-Bu
 
 ### Note
 
-This application accompanies research presented in *The Tax Burden on Corporations: A Comparison of OECD Countries and Proposals to Reform the US Tax System* (Pomerleau, forthcoming).
+This application accompanies research presented in “[The Tax Burden on Corporations: A Comparison of Organisation for Economic Co-operation and Development Countries and Proposals to Reform the US Tax System](https://www.aei.org/research-products/report/the-tax-burden-on-corporations-a-comparison-of-organisation-for-economic-co-operation-and-development-countries-and-proposals-to-reform-the-us-tax-system/),” Pomerleau, Kyle, American Enterprise Institute, AEI Report (October 13, 2021).
 
 To run locally:
 
